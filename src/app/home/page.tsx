@@ -2,10 +2,11 @@
 
 import FeatureSection from "./components/templates/featured";
 import HeroSection from "./components/templates/hero";
-import MockupSection from "./components/templates/mockups";
-import OrderCTASection from "./components/templates/order";
+import ServicesSection from "./components/templates/services";
+// import OrderCTASection from "./components/templates/order";
 import ProductSection from "./components/templates/products";
 import ProductListSection from "./components/templates/productsList";
+import HeroPremium from "./components/templates/hero2";
 
 export default function Home() {
 
@@ -14,13 +15,15 @@ export default function Home() {
 
     <ProductSection/>
 
-    <HeroSection/>
-
-    <MockupSection/>
-
     <ProductListSection/>
 
-    <OrderCTASection/>
+    <ServicesSection/>
+
+    <HeroSection/>
+
+    <HeroPremium />
+
+    {/* <OrderCTASection/> */}
 
     <FeatureSection/>
      

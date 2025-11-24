@@ -19,8 +19,8 @@ export default function Navbar() {
 
       {/* NAV LINKS */}
       <div className="flex gap-8 text-gray-700">
-        <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
         <a href="#">Product</a>
         <a href="#">Contact</a>
       </div>
